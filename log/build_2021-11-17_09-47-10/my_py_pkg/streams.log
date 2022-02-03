@@ -1,0 +1,27 @@
+[0.291s] Invoking command in '/home/navneeth/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/navneeth/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/navneeth/ros2_ws/build/my_py_pkg:/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/navneeth/ros2_ws/install/my_py_pkg
+[0.575s] running develop
+[0.761s] running egg_info
+[0.761s] writing my_py_pkg.egg-info/PKG-INFO
+[0.762s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.762s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.762s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.762s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.849s] listing git files failed - pretending there aren't any
+[0.851s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.852s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.885s] running build_ext
+[0.886s] Creating /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[0.887s] Installing add_two_ints_client_no_opp = my_py_pkg.add_two_ints_client_no_opp:mainadd_two_ints_client script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.887s] Installing add_two_ints_server script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.887s] Installing battery_instance script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.887s] Installing hw_status_publisher script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.887s] Installing led_panel script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.888s] Installing number_counter script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.888s] Installing number_publisher script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.888s] Installing py_node script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.888s] Installing robot_news_station script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.888s] Installing smartphone script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.888s] 
+[0.888s] Installed /home/navneeth/ros2_ws/build/my_py_pkg
+[0.888s] running install_data
+[0.919s] Invoked command in '/home/navneeth/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/navneeth/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/navneeth/ros2_ws/build/my_py_pkg:/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/navneeth/ros2_ws/install/my_py_pkg

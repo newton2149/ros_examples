@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000603] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000632] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000655] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.011539] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.011681] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/navneeth/ros2_ws/src/my_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/navneeth/ros2_ws/install/my_robot_interfaces'], 'cwd': '/home/navneeth/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'navneeth'), ('SSH_AGENT_PID', '2244'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/navneeth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/navneeth'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9007'), ('NVM_DIR', '/home/navneeth/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/navneeth/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'navneeth'), ('JOURNAL_STREAM', '8:54914'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'navneeth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/navneeth/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/navneeth-ThinkPad-E14:@/tmp/.ICE-unix/2285,unix/navneeth-ThinkPad-E14:/tmp/.ICE-unix/2285'), ('INVOCATION_ID', '89016f10679245f68a4171f4e5c679f1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/navneeth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0275c2fc-139c-4766-855e-0a0b880d3ba6'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navneeth/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/navneeth/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.100263] (-) TimerEvent: {}
+[0.201136] (-) TimerEvent: {}
+[0.301825] (-) TimerEvent: {}
+[0.402497] (-) TimerEvent: {}
+[0.503193] (-) TimerEvent: {}
+[0.603965] (-) TimerEvent: {}
+[0.704814] (-) TimerEvent: {}
+[0.805777] (-) TimerEvent: {}
+[0.906595] (-) TimerEvent: {}
+[1.007414] (-) TimerEvent: {}
+[1.108220] (-) TimerEvent: {}
+[1.208973] (-) TimerEvent: {}
+[1.309947] (-) TimerEvent: {}
+[1.410667] (-) TimerEvent: {}
+[1.511571] (-) TimerEvent: {}
+[1.612325] (-) TimerEvent: {}
+[1.713176] (-) TimerEvent: {}
+[1.813998] (-) TimerEvent: {}
+[1.914670] (-) TimerEvent: {}
+[2.015439] (-) TimerEvent: {}
+[2.116442] (-) TimerEvent: {}
+[2.217250] (-) TimerEvent: {}
+[2.242949] (my_robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.317424] (-) TimerEvent: {}
+[2.417974] (-) TimerEvent: {}
+[2.518663] (-) TimerEvent: {}
+[2.619527] (-) TimerEvent: {}
+[2.720542] (-) TimerEvent: {}
+[2.821434] (-) TimerEvent: {}
+[2.922315] (-) TimerEvent: {}
+[3.023266] (-) TimerEvent: {}
+[3.124072] (-) TimerEvent: {}
+[3.225061] (-) TimerEvent: {}
+[3.291791] (my_robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[3.325362] (-) TimerEvent: {}
+[3.425193] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.425829] (-) TimerEvent: {}
+[3.526477] (-) TimerEvent: {}
+[3.596653] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.598192] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.626604] (-) TimerEvent: {}
+[3.660694] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.672873] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.673512] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.676971] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.726731] (-) TimerEvent: {}
+[3.747206] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.748199] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.819781] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.826865] (-) TimerEvent: {}
+[3.831647] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.832157] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.910067] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.927136] (-) TimerEvent: {}
+[4.027813] (-) TimerEvent: {}
+[4.064949] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.065135] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.127929] (-) TimerEvent: {}
+[4.228228] (-) TimerEvent: {}
+[4.328691] (-) TimerEvent: {}
+[4.429196] (-) TimerEvent: {}
+[4.530198] (-) TimerEvent: {}
+[4.630932] (-) TimerEvent: {}
+[4.720054] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.731191] (-) TimerEvent: {}
+[4.832089] (-) TimerEvent: {}
+[4.932971] (-) TimerEvent: {}
+[4.958198] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.033276] (-) TimerEvent: {}
+[5.134415] (-) TimerEvent: {}
+[5.171146] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.234621] (-) TimerEvent: {}
+[5.335256] (-) TimerEvent: {}
+[5.436011] (-) TimerEvent: {}
+[5.536873] (-) TimerEvent: {}
+[5.637569] (-) TimerEvent: {}
+[5.738059] (-) TimerEvent: {}
+[5.838956] (-) TimerEvent: {}
+[5.939618] (-) TimerEvent: {}
+[6.040254] (-) TimerEvent: {}
+[6.078269] (my_robot_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.131164] (my_robot_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.140341] (-) TimerEvent: {}
+[6.240834] (-) TimerEvent: {}
+[6.341214] (-) TimerEvent: {}
+[6.369043] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.441382] (-) TimerEvent: {}
+[6.503108] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.541500] (-) TimerEvent: {}
+[6.615216] (my_robot_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):\n'}
+[6.615426] (my_robot_interfaces) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[6.615498] (my_robot_interfaces) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[6.615562] (my_robot_interfaces) StderrLine: {'line': b'  package.xml\n'}
+[6.615686] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.615746] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[6.615806] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[6.615866] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[6.616421] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.616527] (my_robot_interfaces) StdoutLine: {'line': b'See also "/home/navneeth/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[6.622597] (my_robot_interfaces) CommandEnded: {'returncode': 1}
+[6.641638] (-) TimerEvent: {}
+[6.643353] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 1}
+[6.654398] (-) EventReactorShutdown: {}

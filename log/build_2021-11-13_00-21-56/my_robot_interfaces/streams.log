@@ -1,0 +1,36 @@
+[0.014s] Invoking command in '/home/navneeth/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/navneeth/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/navneeth/ros2_ws/install/my_robot_interfaces
+[2.243s] -- The C compiler identification is GNU 9.3.0
+[3.291s] -- The CXX compiler identification is GNU 9.3.0
+[3.425s] -- Check for working C compiler: /usr/bin/cc
+[3.596s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.598s] -- Detecting C compiler ABI info
+[3.660s] -- Detecting C compiler ABI info - done
+[3.672s] -- Detecting C compile features
+[3.673s] -- Detecting C compile features - done
+[3.676s] -- Check for working CXX compiler: /usr/bin/c++
+[3.747s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.748s] -- Detecting CXX compiler ABI info
+[3.819s] -- Detecting CXX compiler ABI info - done
+[3.831s] -- Detecting CXX compile features
+[3.832s] -- Detecting CXX compile features - done
+[3.910s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.064s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.720s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.171s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.078s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.131s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.503s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.615s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[6.615s]   Packages installing interfaces must include
+[6.615s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[6.615s]   package.xml
+[6.615s] Call Stack (most recent call first):
+[6.615s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[6.615s] 
+[6.615s] 
+[6.616s] -- Configuring incomplete, errors occurred!
+[6.616s] See also "/home/navneeth/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[6.622s] Invoked command in '/home/navneeth/ros2_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/navneeth/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/navneeth/ros2_ws/install/my_robot_interfaces

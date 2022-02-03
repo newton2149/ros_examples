@@ -1,0 +1,20 @@
+[1.300s] Invoking command in '/home/navneeth/ros2_ws/src/turtle_sim_catch_them_all': PYTHONPATH=/home/navneeth/ros2_ws/install/turtle_sim_catch_them_all/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_sim_catch_them_all build --build-base /home/navneeth/ros2_ws/build/turtle_sim_catch_them_all/build install --prefix /home/navneeth/ros2_ws/install/turtle_sim_catch_them_all --record /home/navneeth/ros2_ws/build/turtle_sim_catch_them_all/install.log --single-version-externally-managed
+[1.560s] running egg_info
+[1.560s] writing ../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info/PKG-INFO
+[1.561s] writing dependency_links to ../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info/dependency_links.txt
+[1.561s] writing entry points to ../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info/entry_points.txt
+[1.561s] writing requirements to ../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info/requires.txt
+[1.561s] writing top-level names to ../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info/top_level.txt
+[1.642s] listing git files failed - pretending there aren't any
+[1.644s] reading manifest file '../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info/SOURCES.txt'
+[1.645s] writing manifest file '../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info/SOURCES.txt'
+[1.645s] running build
+[1.646s] running build_py
+[1.646s] running install
+[1.647s] running install_lib
+[1.649s] running install_data
+[1.649s] running install_egg_info
+[1.650s] removing '/home/navneeth/ros2_ws/install/turtle_sim_catch_them_all/lib/python3.8/site-packages/turtle_sim_catch_them_all-0.0.0-py3.8.egg-info' (and everything under it)
+[1.650s] Copying ../../build/turtle_sim_catch_them_all/turtle_sim_catch_them_all.egg-info to /home/navneeth/ros2_ws/install/turtle_sim_catch_them_all/lib/python3.8/site-packages/turtle_sim_catch_them_all-0.0.0-py3.8.egg-info
+[1.651s] running install_scripts
+[1.669s] writing list of installed files to '/home/navneeth/ros2_ws/build/turtle_sim_catch_them_all/install.log'

@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000962] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001004] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.100067] (-) TimerEvent: {}
+[0.200397] (-) TimerEvent: {}
+[0.258842] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/navneeth/ros2_ws/install/my_py_pkg', '--editable', '--build-directory', '/home/navneeth/ros2_ws/build/my_py_pkg/build', '--no-deps', 'install_data', '--install-dir', '/home/navneeth/ros2_ws/install/my_py_pkg'], 'cwd': '/home/navneeth/ros2_ws/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'navneeth', 'SSH_AGENT_PID': '2297', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib', 'HOME': '/home/navneeth', 'OLDPWD': '/home/navneeth/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2109', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8202', 'NVM_DIR': '/home/navneeth/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/navneeth/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'navneeth', 'JOURNAL_STREAM': '8:55995', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'navneeth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/navneeth/anaconda3/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/navneeth-ThinkPad-E14:@/tmp/.ICE-unix/2339,unix/navneeth-ThinkPad-E14:/tmp/.ICE-unix/2339', 'INVOCATION_ID': '75884bbe4f814a31969335d20b88f521', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5389ca5d-f09c-47aa-8473-b9675fceabca', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/navneeth/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic'}, 'shell': False}
+[0.300529] (-) TimerEvent: {}
+[0.400822] (-) TimerEvent: {}
+[0.501217] (-) TimerEvent: {}
+[0.601595] (-) TimerEvent: {}
+[0.652750] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[0.701680] (-) TimerEvent: {}
+[0.801922] (-) TimerEvent: {}
+[0.822657] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.822896] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[0.823112] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.823317] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[0.823522] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[0.823619] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[0.902012] (-) TimerEvent: {}
+[0.908310] (my_py_pkg) StderrLine: {'line': b"listing git files failed - pretending there aren't any\n"}
+[0.910113] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.910997] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.002231] (-) TimerEvent: {}
+[1.102970] (-) TimerEvent: {}
+[1.203312] (-) TimerEvent: {}
+[1.304319] (-) TimerEvent: {}
+[1.405298] (-) TimerEvent: {}
+[1.506091] (-) TimerEvent: {}
+[1.509400] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[1.523093] (my_py_pkg) StdoutLine: {'line': b'Creating /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/site.py\n'}
+[1.527852] (my_py_pkg) StdoutLine: {'line': b'Creating /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[1.531481] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.532290] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.533173] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[1.533815] (my_py_pkg) StdoutLine: {'line': b'Installed /home/navneeth/ros2_ws/build/my_py_pkg\n'}
+[1.534613] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.535006] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/navneeth/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[1.572635] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.585306] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.586004] (-) EventReactorShutdown: {}

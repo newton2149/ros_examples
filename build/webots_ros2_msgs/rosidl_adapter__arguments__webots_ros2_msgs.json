@@ -1,0 +1,8 @@
+{
+  "package_name": "webots_ros2_msgs",
+  "non_idl_tuples": [
+    "/home/navneeth/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/WbCameraRecognitionObject.msg",
+    "/home/navneeth/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/WbCameraRecognitionObjects.msg",
+    "/home/navneeth/ros2_ws/src/webots_ros2/webots_ros2_msgs:srv/SetInt.srv"
+  ]
+}

@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/navneeth/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/home/navneeth/ros2_ws/install/my_robot_interfaces:/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/navneeth/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[0.032s] CMake Warning (dev) at CMakeLists.txt:23:
+[0.032s]   Syntax Warning in cmake code at column 25
+[0.032s] 
+[0.032s]   Argument not separated from preceding token by whitespace.
+[0.033s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.033s] 
+[0.037s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.269s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.415s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.415s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[0.415s]   the CMAKE_CURRENT_SOURCE_DIR
+[0.415s]   '/home/navneeth/ros2_ws/src/my_robot_interfaces'
+[0.415s] Call Stack (most recent call first):
+[0.415s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[0.415s] 
+[0.415s] 
+[0.416s] -- Configuring incomplete, errors occurred!
+[0.416s] See also "/home/navneeth/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.420s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.423s] Invoked command in '/home/navneeth/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/navneeth/ros2_ws/install/my_robot_interfaces:/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/navneeth/ros2_ws/build/my_robot_interfaces -- -j8 -l8

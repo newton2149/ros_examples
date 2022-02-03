@@ -1,0 +1,1 @@
+Invoking command in '/home/navneeth/ros2_ws/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/navneeth/ros2_ws/src/webots_ros2/webots_ros2_msgs -DCMAKE_INSTALL_PREFIX=/home/navneeth/ros2_ws/install/webots_ros2_msgs

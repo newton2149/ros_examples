@@ -1,0 +1,30 @@
+[0.507s] Invoking command in '/home/navneeth/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build
+[0.919s] running develop
+[1.137s] Invoked command in '/home/navneeth/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build
+[1.138s] Invoking command in '/home/navneeth/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/navneeth/ros2_ws/build/my_py_pkg/build install --prefix /home/navneeth/ros2_ws/install/my_py_pkg --record /home/navneeth/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.382s] running egg_info
+[1.382s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.383s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.383s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.383s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.383s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.745s] listing git files failed - pretending there aren't any
+[1.747s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.773s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.773s] running build
+[1.774s] running build_py
+[1.776s] running install
+[1.778s] running install_lib
+[1.805s] running install_data
+[1.808s] running install_egg_info
+[1.812s] removing '/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.826s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[1.829s] running install_scripts
+[1.852s] Installing add_two_ints_server script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.852s] Installing number_counter script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.852s] Installing number_publisher script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.852s] Installing py_node script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.852s] Installing robot_news_station script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.853s] Installing smartphone script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.853s] writing list of installed files to '/home/navneeth/ros2_ws/build/my_py_pkg/install.log'
+[1.874s] Invoked command in '/home/navneeth/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/navneeth/ros2_ws/build/my_py_pkg/build install --prefix /home/navneeth/ros2_ws/install/my_py_pkg --record /home/navneeth/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[0.261s] Invoking command in '/home/navneeth/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/navneeth/ros2_ws/install/my_py_pkg
+[0.652s] running develop
+[0.822s] running egg_info
+[0.822s] writing my_py_pkg.egg-info/PKG-INFO
+[0.822s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.822s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.823s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.823s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.907s] listing git files failed - pretending there aren't any
+[0.909s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.910s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.509s] running build_ext
+[1.522s] Creating /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/site.py
+[1.527s] Creating /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.531s] Installing py_node script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.532s] Installing robot_news_station script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.532s] 
+[1.533s] Installed /home/navneeth/ros2_ws/build/my_py_pkg
+[1.534s] running install_data
+[1.534s] copying package.xml -> /home/navneeth/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.573s] Invoked command in '/home/navneeth/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/navneeth/ros2_ws/install/my_py_pkg

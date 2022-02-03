@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000971] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001012] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/navneeth/ros2_ws/install/my_robot_interfaces')])}
+[0.001036] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.011097] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.011653] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.012234] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navneeth/ros2_ws/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/navneeth/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'navneeth'), ('SSH_AGENT_PID', '2213'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navneeth/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/navneeth'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/navneeth'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2027'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11333'), ('NVM_DIR', '/home/navneeth/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/navneeth/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'navneeth'), ('JOURNAL_STREAM', '8:54562'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'navneeth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/navneeth/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/navneeth-ThinkPad-E14:@/tmp/.ICE-unix/2256,unix/navneeth-ThinkPad-E14:/tmp/.ICE-unix/2256'), ('INVOCATION_ID', 'b7ea4b58442f4e729f6463f43c23c866'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/navneeth/ros2_ws/install/my_py_pkg:/home/navneeth/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/navneeth/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:328c8cd7-cf71-4ddb-9640-15dfb15ad9f1'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navneeth/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/navneeth/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/navneeth/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/navneeth/ros2_ws/install/my_robot_interfaces:/home/navneeth/ros2_ws/install/my_py_pkg:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.039492] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.066895] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.067086] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100022] (-) TimerEvent: {}
+[0.200317] (-) TimerEvent: {}
+[0.272127] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.274191] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.277676] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300460] (-) TimerEvent: {}
+[0.400737] (-) TimerEvent: {}
+[0.400978] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.446141] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.500857] (-) TimerEvent: {}
+[0.568494] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.600986] (-) TimerEvent: {}
+[0.654996] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.661573] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.686421] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.686700] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.701104] (-) TimerEvent: {}
+[0.711231] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.711389] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.711467] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.728848] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.756929] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.759350] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/navneeth/ros2_ws/build/my_robot_interfaces\n'}
+[0.782596] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.792509] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.801229] (-) TimerEvent: {}
+[0.901581] (-) TimerEvent: {}
+[1.001861] (-) TimerEvent: {}
+[1.102112] (-) TimerEvent: {}
+[1.147395] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] Built target my_robot_interfaces__cpp\n'}
+[1.155372] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.156197] (my_robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.156379] (my_robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.156490] (my_robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.169812] (my_robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o\x1b[0m\n'}
+[1.170072] (my_robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[1.170212] (my_robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o\x1b[0m\n'}
+[1.170331] (my_robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[1.186283] (my_robot_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.h:19\x1b[m\x1b[K,\n'}
+[1.186535] (my_robot_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c:4\x1b[m\x1b[K:\n'}
+[1.186679] (my_robot_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interfaces/msg/detail/string__struct.h: No such file or directory\n'}
+[1.186806] (my_robot_interfaces) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"my_robot_interfaces/msg/detail/string__struct.h"\x1b[m\x1b[K\n'}
+[1.186931] (my_robot_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.187065] (my_robot_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[1.187400] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make:153: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o] Error 1\n'}
+[1.187596] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.202215] (-) TimerEvent: {}
+[1.220631] (my_robot_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:246: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[1.220831] (my_robot_interfaces) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.302341] (-) TimerEvent: {}
+[1.402637] (-) TimerEvent: {}
+[1.434073] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.446752] (my_robot_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.448897] (my_robot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.449200] (my_robot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_status__type_support.cpp.o\x1b[0m\n'}
+[1.449341] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[1.496221] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.502760] (-) TimerEvent: {}
+[1.515902] (my_robot_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_status__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[1.516126] (my_robot_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_status__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[1.516257] (my_robot_interfaces) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"my_robot_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[1.516376] (my_robot_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.516493] (my_robot_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[1.561082] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.572555] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make:98: CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_status__type_support.cpp.o] Error 1\n'}
+[1.572786] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.586892] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.587181] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_status__type_support.cpp.o\x1b[0m\n'}
+[1.587408] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.587577] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o\x1b[0m\n'}
+[1.587808] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[1.602876] (-) TimerEvent: {}
+[1.656803] (my_robot_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_status__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[1.657063] (my_robot_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_status__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[1.657197] (my_robot_interfaces) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"my_robot_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[1.657317] (my_robot_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.657444] (my_robot_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[1.658654] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:112: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_status__type_support.cpp.o] Error 1\n'}
+[1.658919] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.670627] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_status__type_support.cpp.o\x1b[0m\n'}
+[1.703036] (-) TimerEvent: {}
+[1.742034] (my_robot_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/led_status__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[1.742289] (my_robot_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_status__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[1.742449] (my_robot_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navneeth/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_status__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[1.742575] (my_robot_interfaces) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"my_robot_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[1.742692] (my_robot_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.742811] (my_robot_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[1.743775] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:112: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_status__type_support.cpp.o] Error 1\n'}
+[1.744003] (my_robot_interfaces) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.803139] (-) TimerEvent: {}
+[1.873943] (my_robot_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:469: CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[1.903246] (-) TimerEvent: {}
+[1.975480] (my_robot_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[2.003416] (-) TimerEvent: {}
+[2.049800] (my_robot_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:356: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[2.050106] (my_robot_interfaces) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.051836] (my_robot_interfaces) CommandEnded: {'returncode': 2}
+[2.103517] (-) TimerEvent: {}
+[2.131118] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 2}
+[2.141743] (my_py_pkg) JobSkipped: {'identifier': 'my_py_pkg'}
+[2.141798] (-) EventReactorShutdown: {}

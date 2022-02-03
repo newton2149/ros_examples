@@ -1,0 +1,48 @@
+[0.466s] Invoking command in '/home/navneeth/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build
+[0.977s] running develop
+[1.174s] Removing /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.196s] Invoked command in '/home/navneeth/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navneeth/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/navneeth/ros2_ws/build/my_py_pkg/build
+[1.197s] Invoking command in '/home/navneeth/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/navneeth/ros2_ws/build/my_py_pkg/build install --prefix /home/navneeth/ros2_ws/install/my_py_pkg --record /home/navneeth/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.427s] running egg_info
+[1.428s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.428s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.428s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.428s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.428s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.874s] listing git files failed - pretending there aren't any
+[1.877s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.878s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.879s] running build
+[1.879s] running build_py
+[1.880s] copying my_py_pkg/add_two_ints_server.py -> /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.880s] running install
+[1.881s] running install_lib
+[1.883s] creating /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.883s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.883s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/ros2_python_template.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.883s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.883s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.884s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.884s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.884s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.884s] copying /home/navneeth/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.884s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-38.pyc
+[1.885s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/ros2_python_template.py to ros2_python_template.cpython-38.pyc
+[1.885s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-38.pyc
+[1.886s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-38.pyc
+[1.886s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[1.886s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-38.pyc
+[1.887s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-38.pyc
+[1.887s] byte-compiling /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc
+[1.887s] running install_data
+[1.888s] running install_egg_info
+[1.889s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[1.890s] running install_scripts
+[1.905s] Installing add_two_ints_server script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.905s] Installing number_counter script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.905s] Installing number_publisher script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.905s] Installing py_node script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.906s] Installing robot_news_station script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.906s] Installing smartphone script to /home/navneeth/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.906s] writing list of installed files to '/home/navneeth/ros2_ws/build/my_py_pkg/install.log'
+[1.928s] Invoked command in '/home/navneeth/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/navneeth/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/navneeth/ros2_ws/build/my_py_pkg/build install --prefix /home/navneeth/ros2_ws/install/my_py_pkg --record /home/navneeth/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
