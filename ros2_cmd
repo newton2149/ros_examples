@@ -1,0 +1,85 @@
+step 1 : colcon build or colcon build --packages-select <package name>
+
+Build Fucntion for debugging
+colcon build --packages-select <package name> --symlink-install
+
+cd ws/install
+source ~/<ws name>/install/setup.bash
+
+Createing Packages
+ros2 pkg create <package name> --build-type ament_python --dependencies rclpy  
+
+Remap Node
+ros2 run my_py_pkg py_node --ros-args --remap __node:=<new name>
+
+Remap topic
+ros2 run my_py_pkg py_node --ros-args --remap __node:=<new name> -r <topic name>:=<new topic name>
+
+Message Type
+ros2 interface show  example_interfaces/msg/String
+
+Inspecting a topic
+ros2 topic echo /<topic name>
+ros2 topic hz /<topic name>
+
+ ROS - DISTRO
+ env | grep ROS
+   ROS_ROOT=/opt/ros/foxy/share/ros
+   ROS_PACKAGE_PATH=/opt/ros/foxy/share:/opt/ros/foxy/stacks
+   ROS_MASTER_URI=http://localhost:11311
+   ROSLISP_PACKAGE_DIRECTORIES=
+   ROS_DISTRO=foxy
+   ROS_ETC_DIR=/opt/ros/foxy/etc/ros
+
+Inspecting Services
+
+ros2 service list
+ros2 run <pkg_name> <node name> --ros-args -r add_two_ints:=new_name
+
+
+Steps to Create a custom package
+	step1: ros2 pkg create <robot_name_interfaces>
+	
+	Step2: change the package_xml package
+	         <build_depend>rosidl_default_generators</build_depend>
+		  <exec_depend>rosidl_default_runtime</exec_depend>
+		  <member_of_group>rosidl_interface_packages</member_of_group>
+		  
+	step3: Edit the cmakelist.txt	
+		rosidl_generate_interfaces(${PROJECT_NAME}
+		"msg/<message_name>.msg"
+		)
+	step4: add package to the package.xml of the node package
+	
+	
+ros2 interface package <package name>
+
+Parameters
+ros2 param set /<node name> <param name>
+ros2 run <package name> <node name> --ros-args -p <parameter name>:=<value>
+
+Launch Files
+Create a c++ package and remove include and src folder
+Edit the package cmake list with "install(DIRECTORY
+ launch
+ DESTINATION share/${PROJECT_NAME}
+
+)"
+template for launch file
+from launch import LaunchDescription
+from launch_ros.actions import Node
+def generate_launch_description():
+    ld = LaunchDescription()
+    number_publisher_node = Node(
+        package="<package name>",
+        executable='<executable name in the setup.py>'
+    )
+    ld.add_action(number_publisher_node)
+    return ld
+    
+ ros2 bag record /number -o test for making sqllite3 db
+  ros2 bag record -a -o test for making sqllite3 db for all topics
+ ros2 bag play
+ 
+
+
